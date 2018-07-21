@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="38" height="38"><defs><style>.a{fill:#edd87e;}.b{fill:#434854;}.c{fill:#eaeaea;}.d,.e{opacity:0.1;}</style></defs><g transform="translate(-448 -224)"><path class="a" d="M448,254a2,2,0,0,0,2,2h28c1.1,0,2-.9,2-3V234l-16,11-16-11Z"/><path class="b" d="M464,224l-16,10,16,11,16-11Z"/><path class="c" d="M476,236.75V226a2,2,0,0,0-2-2H454a2,2,0,0,0-2,2v10.75L464,245Z"/><path class="d" d="M448,234l16,9,16-9-16,11Z"/><g class="e"><path d="M464,245l15.263,10.539A1.988,1.988,0,0,0,480,254Z"/><path d="M448.737,255.539,464,245l-16,9A1.988,1.988,0,0,0,448.737,255.539Z"/></g><g class="e"><path d="M458,231h12a1,1,0,0,0,0-2H458a1,1,0,1,0,0,2Z"/><path d="M470,233H458a1,1,0,1,0,0,2h12a1,1,0,0,0,0-2Z"/><path d="M470,237H458a1,1,0,1,0,0,2h12a1,1,0,0,0,0-2Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="38" height="38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #edd87e;
+      }
+
+      .cls-2 {
+        fill: #434854;
+      }
+
+      .cls-3 {
+        fill: #cbcbcb;
+      }
+
+      .cls-4, .cls-5 {
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <g id="Group_701" data-name="Group 701" transform="translate(-448 -224)">
+    <path id="Path_1715" data-name="Path 1715" class="cls-1" d="M448,254a2,2,0,0,0,2,2h28c1.1,0,2-.9,2-3V234l-16,11-16-11Z"/>
+    <path id="Path_1716" data-name="Path 1716" class="cls-2" d="M464,224l-16,10,16,11,16-11Z"/>
+    <path id="Path_1717" data-name="Path 1717" class="cls-3" d="M476,236.75V226a2,2,0,0,0-2-2H454a2,2,0,0,0-2,2v10.75L464,245Z"/>
+    <path id="Path_1718" data-name="Path 1718" class="cls-4" d="M448,234l16,9,16-9-16,11Z"/>
+    <g id="Group_699" data-name="Group 699" class="cls-5">
+      <path id="Path_1719" data-name="Path 1719" d="M464,245l15.263,10.539A1.988,1.988,0,0,0,480,254Z"/>
+      <path id="Path_1720" data-name="Path 1720" d="M448.737,255.539,464,245l-16,9A1.988,1.988,0,0,0,448.737,255.539Z"/>
+    </g>
+    <g id="Group_700" data-name="Group 700" class="cls-5">
+      <path id="Path_1721" data-name="Path 1721" d="M458,231h12a1,1,0,0,0,0-2H458a1,1,0,1,0,0,2Z"/>
+      <path id="Path_1722" data-name="Path 1722" d="M470,233H458a1,1,0,1,0,0,2h12a1,1,0,0,0,0-2Z"/>
+      <path id="Path_1723" data-name="Path 1723" d="M470,237H458a1,1,0,1,0,0,2h12a1,1,0,0,0,0-2Z"/>
+    </g>
+  </g>
+</svg>

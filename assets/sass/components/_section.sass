@@ -10,7 +10,7 @@
     display: flex
     padding: 40px 25px
     border-radius: 5px
-    background-color: rgba(255, 255, 255, 0.6)
+    background-color: rgba(249, 249, 249, 0.7)
 
   &__content-wrap
     display: flex
@@ -21,6 +21,7 @@
     margin: 0
     font-family: $paragraph-font-family
     font-size: $paragraph-font-size
+    font-weight: 600
     color: $primary-font-color
 
     &:not(:first-of-type)
@@ -33,6 +34,10 @@
   &__header-icon
     margin-left: 20px
 
+    &--adjust-to-long-heading
+      margin-top: -15px
+      margin-left: 10px
+
   &__text-icon
     display: block
     margin: 0 auto
@@ -41,11 +46,34 @@
     display: flex
     align-items: center
     margin-top: 15px
+
+  &__email
     font-family: $paragraph-font-family
+    font-weight: 600
+    font-style: normal
     color: $secondary-font-color
 
   &__contact-icon
     margin-right: 10px
+
+
+@media screen and (min-width: 350px)
+  .section
+    &__title
+      &--adjust-long-text
+        width: 240px
+
+@media screen and (min-width: 490px)
+  .section
+    &__title
+      &--adjust-long-text
+        width: 100%
+    
+    &__header-icon
+      margin-left: 20px
+
+      &--adjust-to-long-heading
+        margin-left: 15px
 
 @media screen and (min-width: 660px)
   .section
