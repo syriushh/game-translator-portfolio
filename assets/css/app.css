@@ -27,14 +27,9 @@
     font-size: 30px;
     color: #444444; }
   .section__inner-wrap {
-    display: flex;
     padding: 40px 25px;
     border-radius: 5px;
     background-color: rgba(249, 249, 249, 0.7); }
-  .section__content-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
   .section__paragraph {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -72,7 +67,7 @@
 
 @media screen and (min-width: 490px) {
   .section__title--adjust-long-text {
-    width: 100%; }
+    width: auto; }
   .section__header-icon {
     margin-left: 20px; }
     .section__header-icon--adjust-to-long-heading {
