@@ -66,3 +66,36 @@
     color: #ffffff; }
   .page-footer__link {
     color: #ffffff; }
+
+.game-translation-card {
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 5px; }
+  .game-translation-card__figure {
+    margin: 0; }
+  .game-translation-card__image {
+    position: relative;
+    max-width: 100%;
+    filter: brightness(60%); }
+  .game-translation-card__image-wrap {
+    position: relative; }
+    .game-translation-card__image-wrap:before {
+      transition: transform 0.3s ease-in-out;
+      position: absolute;
+      top: calc(50% - (40px / 2));
+      left: calc(50% - (75px / 2));
+      content: "";
+      display: block;
+      height: 40px;
+      width: 70px;
+      z-index: 100;
+      background: url("../img/magnifier.svg");
+      background-size: cover; }
+    .game-translation-card__image-wrap:hover:before {
+      transform: scale(1.5); }
+  .game-translation-card__caption {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #555555;
+    padding: 10px 0; }
