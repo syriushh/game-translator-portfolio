@@ -46,6 +46,16 @@
   display: block;
   margin: 0 auto; }
 
+.section__contact-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #06D6A0; }
+
+.section__contact-icon {
+  margin-right: 10px; }
+
 .page-footer {
   background: #292F36;
   padding: 40px 20px; }
