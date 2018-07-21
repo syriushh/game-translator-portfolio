@@ -1,6 +1,14 @@
 .body {
   margin: 0; }
 
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #f7f5e4;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23aaa0ba' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"); }
+
 .page-header {
   background: #ffffff;
   padding: 15px;
@@ -10,55 +18,55 @@
     font-family: "Play", sans-serif;
     font-size: 21px; }
 
-.section__title {
-  margin: 0 0 15px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  color: #ffffff; }
+.section {
+  width: 100%; }
+  .section__title {
+    margin: 0 0 15px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #444444; }
+  .section__inner-wrap {
+    display: flex;
+    padding: 40px 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6); }
+  .section__content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+  .section__paragraph {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #444444; }
+    .section__paragraph:not(:first-of-type) {
+      margin-top: 20px; }
+  .section__header-wrap {
+    display: flex;
+    align-items: flex-start; }
+  .section__header-icon {
+    margin-left: 20px; }
+  .section__text-icon {
+    display: block;
+    margin: 0 auto; }
+  .section__contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #06D6A0; }
+  .section__contact-icon {
+    margin-right: 10px; }
 
-.section__inner-wrap {
-  padding: 40px 20px; }
-  .section__inner-wrap--about {
-    background-color: #FB4735; }
-  .section__inner-wrap--lol-player {
-    background-color: #118AB2; }
-  .section__inner-wrap--offer {
-    background-color: #0AB78A; }
-  .section__inner-wrap--portfolio {
-    background-color: #DCA014; }
-  .section__inner-wrap--contact {
-    background-color: #073B4C; }
-
-.section__paragraph {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  color: #ffffff; }
-
-.section__header-wrap {
-  display: flex;
-  align-items: flex-start; }
-
-.section__header-icon {
-  margin-left: 20px; }
-
-.section__text-icon {
-  display: block;
-  margin: 0 auto; }
-
-.section__contact-info {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-  font-family: "Open Sans", sans-serif;
-  color: #06D6A0; }
-
-.section__contact-icon {
-  margin-right: 10px; }
+@media screen and (min-width: 660px) {
+  .section {
+    width: 600px; }
+    .section__inner-wrap {
+      padding: 40px 60px; } }
 
 .page-footer {
   background: #292F36;
-  padding: 40px 20px; }
+  padding: 20px 20px; }
   .page-footer__paragraph {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -93,7 +101,7 @@
       background: url("../img/magnifier.svg");
       background-size: cover; }
     .game-translation-card__image-wrap:hover:before {
-      transform: scale(1.5); }
+      transform: scale(1.3); }
   .game-translation-card__caption {
     font-family: "Open Sans", sans-serif;
     text-align: center;
