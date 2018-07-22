@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/app.js"],"names":[],"mappings":";;AAAA,IAAM,OAAO,OAAb;;AAEA,MAAM,IAAN;;AAEA,IAAI,MAAM,SAAN,GAAM,CAAC,CAAD,EAAI,CAAJ;AAAA,SAAU,IAAI,CAAd;AAAA,CAAV","file":"script-compiled.js","sourcesContent":["const test = 'dzila'\r\n\r\nalert(test)\r\n\r\nlet add = (a, b) => a + b  "]}

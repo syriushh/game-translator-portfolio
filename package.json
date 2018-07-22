@@ -1,15 +1,20 @@
 {
   "scripts": {
-    "dev": "npm-run-all --parallel liveserver watch:scss ",
+    "dev": "npm-run-all --parallel babel watch:scss ",
     "liveserver": "live-server",
+    "babel": "npx babel src --watch --out-file dist/script-compiled.js --source-maps",
     "watch:scss": "node-sass assets/sass/app.sass assets/css/app.css -w",
     "build:scss": "node-sass assets/sass/app.sass assets/css/app.css --output-style compressed"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.2",
     "npm-run-all": "^4.1.3"
   },
   "dependencies": {
-    "live-server": "^1.2.0"
+    "hoek": "^5.0.3",
+    "live-server": "^1.2.0",
+    "npx": "^10.2.0"
   }
 }
