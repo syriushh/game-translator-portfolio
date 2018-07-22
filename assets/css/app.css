@@ -142,8 +142,7 @@
     height: 100vh;
     overflow: auto;
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 0 10px; }
+    background-color: rgba(0, 0, 0, 0.9); }
   .modal__title {
     max-width: 90%;
     font-family: "Open Sans", sans-serif;
