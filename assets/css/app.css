@@ -96,10 +96,11 @@
   background: rgba(210, 202, 178, 0.7);
   border-radius: 3px;
   padding: 5px; }
+  .game-translation-card:not(:first-of-type) {
+    margin-top: 30px; }
   .game-translation-card__figure {
     margin: 0; }
   .game-translation-card__image {
-    position: relative;
     max-width: 100%;
     filter: brightness(60%); }
   .game-translation-card__image-wrap {
