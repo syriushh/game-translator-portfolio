@@ -121,6 +121,7 @@
       transform: scale(1.3); }
   .game-translation-card__caption {
     font-family: "Open Sans", sans-serif;
+    font-weight: bold;
     text-align: center;
     color: #555555;
     padding: 10px 0; }
