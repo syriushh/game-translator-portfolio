@@ -123,3 +123,35 @@
     text-align: center;
     color: #555555;
     padding: 10px 0; }
+
+.modal {
+  display: none; }
+  .modal--open {
+    display: block; }
+  .modal__inner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0 10px; }
+  .modal__title {
+    max-width: 90%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-align: center; }
+  .modal__image {
+    width: 90%; }
+
+@media screen and (min-width: 1000px) {
+  .modal__image {
+    width: 60%; } }
